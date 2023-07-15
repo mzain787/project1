@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.side-component{
+    font-family: 'Karla', sans-serif;
+}
+.side-comp-data h1{
+    font-size: 21px;
+    font-weight: 500;
+}
+.side-comp-data p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.side-comp-data{
+    margin-bottom: 20px;
+}
+@media (max-width:768px) {
+    .side-comp-data h1{
+        font-size: 17px;
+    }
+}

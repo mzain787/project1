@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.about{
+    font-family: 'Karla', sans-serif;
+}
+.about-us-header{
+    background-color: rgb(51, 49, 49);
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+.about-us-heading{
+    padding:200px 0px 100px 0px;
+    text-align: center;
+
+}
+.about-us-heading p{
+    font-size: 24px;
+    color: #FFB03B;
+    padding: 20px 100px 0px 100px;
+}
+.about-us-heading h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.company-intro{
+    background-color: #FFB03B;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+.company-intro h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.company-intro p{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0rem 13rem 0rem 13rem;
+}
+.hr1{
+    width: 22vw;
+    margin: auto;
+    border: 2px solid #333333;
+    margin-bottom: 20px;
+}
+.image{
+    width: 250px;
+    border: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px 50px 100px;
+    font-family: 'Karla', sans-serif;
+}
+.about-us-images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-us-text h2{
+  font-size: 40px;
+  font-weight: 500;
+  width: 27rem;
+  border-bottom: 4px solid #FFB03B;
+  margin-bottom: 20px;
+}
+.about-us-text p{
+    font-size: 20px;
+}
+.raa{
+    font-weight: bolder;
+}
+.standards{
+    background-color: rgb(51, 49, 49);
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 50px 20px;
+}
+.standards p{
+    font-size: 24px;
+    margin-bottom: 0rem;
+}
+.rule i{
+    color: #FFB03B;
+    margin-bottom: 10px;
+}
+.rule p{
+    color: white;
+}
+.rules{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 0px 0px 0px;
+}
+@media (max-width:1350px) {
+    .about-us-images{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:1200px) {
+    .company-intro p{
+        padding: 0rem 8rem 0rem 8rem;
+    }
+}
+@media (max-width:992px) {
+    .about-us-heading p{
+        font-size: 24px
+    }
+    .about-us-heading h1{
+        font-size: 48px;
+    }
+    .company-intro h1{
+        font-size: 44px;
+    }
+    .company-intro p{
+        font-size: 24px;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 30px 50px 30px 50px;
+    }
+    .about-us-text h2{
+        font-size: 36px;
+        width: 23rem;
+    }
+    .about-us-text p{
+        font-size: 18px;
+    }
+    .about-us-images{
+        flex-direction: row;
+    }
+}
+@media (max-width:768px) {
+    .about-us-heading p{
+        font-size: 20px
+    }
+    .about-us-heading h1{
+        font-size: 44px;
+    }
+    .company-intro h1{
+        font-size: 36px;
+    }
+    .company-intro p{
+        font-size: 18px;
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    .about-us-heading p{
+        padding: 20px 20px 0px 20px;
+    }
+    .about-us-heading{
+        padding:150px 0px 50px 0px;
+    }
+    .about-us-text h2{
+        font-size: 30px;
+        width: 20rem;
+    }
+    .about-us{
+        padding: 20px;
+    }
+    .standards p{
+        font-size: 20px;
+}
+    .rules{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:600px) {
+    .image{
+        width: 200px;
+    }
+}
+@media (max-width:480px) {
+    .image{
+        width: 150px;
+    }
+    .company-intro p{
+        padding: 0rem 1rem 0rem 1rem;
+    }
+    .company-intro h1{
+        font-size: 30px;
+    }
+    .about-us-text h2{
+        font-size: 20px;
+        width: 14rem;
+    }
+}

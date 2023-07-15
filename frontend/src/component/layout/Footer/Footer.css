@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+footer {
+  background-color: #061326;
+  font-family: 'Karla', sans-serif;
+  color: white;
+}
+footer p{
+  font-size: 18px;
+}
+
+.logo-img{
+  cursor: pointer;
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.leftFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.leftFooter > p {
+  font-family: 'Karla', sans-serif;
+  text-align:left;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.midFooter1 >h2{
+  color:rgba(214, 162, 32, 0.88);
+}
+.midFooter1
+a{
+  text-decoration: none;
+}
+.midFooter1 a{
+  color: white;
+}
+.midFooter1 a:hover{
+  color: #eb4034;
+}
+.rightFooter > h2{
+  color:rgba(214, 162, 32, 0.88);
+}
+.followus{
+  font-size: 20px;
+  color:#eb4034;
+  font-weight: bold;
+}
+.footer-icons{
+  display: flex;
+  gap: 20px;
+}
+.footer-icons i{
+  font-size: 30px;
+  color: white;
+}
+.footer-icons i:hover{
+  color: #eb4034;
+
+}
+.copyright{
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  background-color: rgb(74, 73, 73);
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  
+}
+.copyright >p{
+  margin-top: 10px;
+}
+.paypal-btn{
+  background-color: #FFB03B;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0px;
+}

@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.customorder-main-container{
+    font-family: 'Karla', sans-serif;
+}
+.custom-order-header{
+    background-color: #FFB03B;
+    padding: 150px 0px 50px 0px;
+    text-align: center;
+    color: rgb(51, 49, 49);
+}
+.custom-order-header h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.custom-order-header p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0rem 10rem;
+}
+.custom-order-page-image img{
+    width: 100%;
+    position: relative;
+}
+.custom-order-form-section{
+    position: relative;
+    width: 100%;
+}
+.animated-image {
+    position: absolute;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .custom-order-content
+  {
+    display: flex;
+    width: 100%;
+  }
+  .custom-order-page-image{
+    width: 40%;
+    padding-top: 10rem;
+  }
+  .custom-order-form-section{
+    width: 60%;
+    padding: 50px 50px 0px 50px;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px); /* Adjust the desired animation distance */
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    border: 2px solid #FFB03B;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.input-field input{
+    border: none;
+    margin-left: 10px;
+    outline: none;
+}
+.input-field:hover{
+    border: 2px solid gray;
+}
+.input-field .field-icon{
+padding: 0px 10px 0px 10px;
+border-right: 2px solid #FFB03B;
+color: gray;
+}
+.input-flex input{
+    border: 2px solid #FFB03B;
+    outline: none;
+    width: 50%;
+}
+.input-flex input:focus{
+    border: 2px solid gray;
+}
+.input-flex select{
+     outline: none;
+     border: 2px solid #FFB03B;  
+     width: 50%;
+}
+.input-flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.center-point-select{
+    outline: none;
+    border: 2px solid #FFB03B;  
+    margin-bottom: 20px;
+}
+.text-area-field {
+    border: 2px solid #FFB03B;
+    outline: none;
+}
+.text-area-field:focus{
+    border: 2px solid gray;
+}
+.choose-file-section{
+  margin-bottom: 30px;
+}
+.choose-file-section p{
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width:992px) {
+    .custom-order-content{
+        flex-direction: column;
+    }
+      .custom-order-page-image{
+        width: 100%;
+        padding-top: 1rem;
+      }
+      .custom-order-form-section{
+        width: 100%;
+        padding: 20px 10px 10px 10px;
+      }
+      .custom-order-header p{
+        padding: 0px 5rem;
+      }
+      .custom-order-header h1{
+        font-size: 36px;
+        font-weight: bolder;
+      }
+}
+@media (max-width:600px) {
+    .input-flex{
+        flex-direction: column;
+    }
+    .input-flex input{
+        width: 100%;
+    }
+    .input-flex select{
+        width: 100%;
+    }
+    .custom-order-form-section{
+        padding: 20px 0px 10px 0px;
+        font-weight: 300;
+      }
+      .custom-order-header p{
+        padding: 0px 2rem;
+      }
+      .custom-order-header h1{
+        font-size: 30px;
+        font-weight: bolder;
+      }
+}

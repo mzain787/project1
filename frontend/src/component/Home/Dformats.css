@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.dformats
+{
+    font-family: 'Karla', sans-serif;
+    background-color: rgb(51, 49, 49);
+    padding: 20px 50px;
+}
+.dformats h1{
+    background-color: #FFB03B;
+    color: black;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.format{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.format-description p{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+}
+.format-description span{
+    color: #FFB03B;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.format-images img{
+    width: 80px;
+    height: 80px;
+    margin: 5px 5px;
+}
+@media (max-width:992px) {
+    .dformats h1{
+        font-size: 30px;
+    }
+    .format-images img{
+        width: 60px;
+        height: 60px;
+    }
+    .format-description p{
+       font-size: 20px;
+    }
+}
+@media(max-width:768px){
+    .dformats h1{
+        font-size: 20px;
+    }
+    .format-images img{
+        width: 50px;
+        height: 50px;
+    }
+    .format-description p{
+        font-size: 18px;
+    }
+}
+@media (max-width:600px) {
+    .format-images img{
+        width: 35px;
+        height: 35px;
+    }
+    .dformats h1{
+        color: #FFB03B;
+        background-color: rgb(51, 49, 49);
+        text-decoration: underline;
+    }
+}

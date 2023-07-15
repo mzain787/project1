@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.productCard{
+    box-shadow: #FFB03B 0px 4px 12px;
+    border-radius: 4px;
+    width: 260px;
+    padding: 10px;
+}
+.productCard img{
+    width: 100%;
+}
+.projectCard{
+    font-family: 'Karla', sans-serif;
+    border-radius: 8px;
+    width: 260px;
+    height: auto;
+    padding: 10px;
+    margin: 1vmax;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.projectCard img{
+    width: 100%;
+}
+.projectCard p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px;
+}

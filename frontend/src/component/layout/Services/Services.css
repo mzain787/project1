@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+.services-main {
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: 7rem;
+   color: white;
+   font-family: 'Karla', sans-serif;
+  }
+  .c-main{
+    padding: 30px;
+  }
+  .services-head{
+    font-size: 4rem ;
+    color: #FFB03B;
+    margin-left:20px ;
+  }
+  .services-pera{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 2rem;
+    margin-top: 10px;
+  }
+  .services-page-content {
+    width: 50%;
+    padding-right: 10px;
+    padding-right: 10px;
+  }
+  .services-images {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .images{
+     height: auto;
+     width: 300px;
+  }
+  @media (max-width: 992px) {
+    .services-main {
+      display: flex;
+      flex-direction: column;
+    }
+    .services-images {
+      width: 100%;
+    }
+    .services-page-content {
+      width: 100%;
+    }
+      .services-head{
+        font-size: 2rem;
+      }
+      .services-pera{
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      .c-main{
+        padding-left: 10px;
+      }
+  }
+  /* Styles for mobile screens */
+@media (max-width: 576px) {
+  /* CSS rules specific to mobile screens */
+  .services-head{
+    font-size: 2rem;
+    margin: 5px;
+  }
+  .services-pera{
+    font-size: 0.8rem;
+    font-weight: 300;
+   margin-left: 1.5rem;
+   margin-top: 0;
+  }
+  .c-main{
+    padding : 10px;
+  }
+  .images{
+    width: 250px;
+  }
+}

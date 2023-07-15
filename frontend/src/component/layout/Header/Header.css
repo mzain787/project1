@@ -1,0 +1,183 @@
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+      header {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        font-family: 'Karla', sans-serif;
+        background-color: rgba(0, 0, 0, 0.79);
+      }
+      
+      header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0px 10px 0px;
+      }
+      .home-icon{
+        padding-right: 5px;
+      }
+      .header-list li {
+        font-size: 18px;
+      }
+      
+      .header-list li a:hover {
+        color: #FFB03B;
+      }
+      
+      .nav-options,
+      .header-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+      }
+      .cart-option{
+        padding-top: 10px;
+      }
+      .cart-option i{
+        color: red;
+      }
+      header nav ul,
+      header nav ul li a {
+        list-style-type: none;
+        text-decoration: none;
+        color: #F1F1F1;
+        font-size: 18px;
+      }
+      
+      header nav ul {
+        padding-right: 5rem;
+      }
+      
+      .nav-btn {
+        background-color: #FFB03B;
+        color: white;
+        border: 1px solid #FFB03B;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 500;
+        margin-bottom: 18px;
+        transition: 0.3s;
+        padding: 10px 25px;
+      }
+      
+      .nav-btn:hover {
+        background-color: #FFB03B;
+      }
+      
+      .header-list li .active {
+        color: #FFB03B;
+        border-bottom: 2px solid #FFB03B;
+        padding-bottom: 10px;
+      }
+      
+      .header-logo {
+        width: 120px;
+        height: auto;
+      }
+      
+      .header-logo img {
+        width: 100%;
+      }
+      
+      .hamburger i {
+        display: none;
+      }
+      
+      .speedDial {
+        position: fixed;
+        right: 1.5vmax;
+        top: 2.5vmax;
+      }
+      
+      .speedDialIcon {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+      }
+      
+      @media (max-width: 1200px) {
+        .header-logo {
+          width: 90px;
+          padding: 10px 0px;
+        }
+      }
+      
+      @media (max-width: 992px) {
+        header nav {
+          padding: 30px 0px;
+        }
+      
+        .hamburger i {
+          display: block;
+          font-size: 28px;
+          cursor: pointer;
+          transition: 0.5s;
+          margin-bottom: 15px;
+          color: white;
+        }
+      
+        .cross {
+          font-size: 28px;
+          cursor: pointer;
+        }
+      
+        .nav-options {
+          position: relative;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 30px;
+          width: 100%;
+        }
+      
+        .m-header-list {
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          display: flex;
+          flex-direction: column;
+          font-size: 25px;
+          position: absolute;
+          left: 0;
+          margin-top: 70px;
+          padding: 0px;
+          width: 50%;
+          backdrop-filter: blur(0px);
+          background: black;
+        }
+      
+        .m-header-list li {
+          border-bottom: 0.5px solid #FFFACD;
+          height: 50px;
+          width: 100%;
+          padding-left: 20px;
+        }
+      
+        .mobile-navbar-btn[name="close-icon"] {
+          display: none;
+        }
+      
+        .header-list {
+          display: none;
+        }
+      
+        .header-logo {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      
+      @media (max-width: 768px) {
+        .header-logo {
+          width: 90px;
+          height: auto;
+        }
+      }
+      
+      @media (max-width: 600px) {
+        .m-header-list {
+          width: 70%;
+        }
+      }
+            
